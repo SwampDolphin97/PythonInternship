@@ -1,0 +1,11 @@
+#1
+result = open("file1.txt","r")
+sentence = result.read()
+print sentence
+result.close()
+#2
+result = open("file2.txt","w")
+for count in sentence:
+		print count
+
+print sentence
